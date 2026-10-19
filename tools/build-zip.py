@@ -4,7 +4,7 @@ import zipfile,hashlib,json,subprocess,shutil
 root=Path(__file__).resolve().parents[1]
 out=root/'dist/genesis-widgetized-footer-2.0.0.zip'
 out.parent.mkdir(exist_ok=True)
-files=sorted(p for p in root.rglob('*') if p.is_file() and p.name not in ('.gitignore','_config.yml','index.md') and not any(part in ('sources','marketing','branding','wiki','tools','docs','.github','.git','dist','__pycache__') for part in p.relative_to(root).parts))
+files=sorted(p for p in root.rglob('*') if p.is_file() and p.suffix != '.scss' and p.name not in ('.gitignore','_config.yml','index.md') and not any(part in ('sources','marketing','branding','wiki','tools','docs','.github','.git','dist','__pycache__') for part in p.relative_to(root).parts))
 with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
  for p in files:
   entry=zipfile.ZipInfo(str(Path(root.name)/p.relative_to(root)),(2026,10,19,0,0,0))
