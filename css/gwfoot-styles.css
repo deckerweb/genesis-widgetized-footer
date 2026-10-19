@@ -1,0 +1,12 @@
+/* Genesis Widgetized Footer. Copyright 2012–2026 David Decker. GPL-2.0-or-later. */
+.gwfoot-footer-areas{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:1.5rem;width:100%;clear:both;text-align:start;box-sizing:border-box}
+.gwfoot-footer-areas.gwfoot-layout-equal{grid-template-columns:repeat(2,minmax(0,1fr))}
+.gwfoot-footer-areas.gwfoot-layout-two-thirds{grid-template-columns:minmax(0,2fr) minmax(0,1fr)}
+.gwfoot-footer-areas.gwfoot-layout-full{grid-template-columns:minmax(0,1fr)}
+.gwfoot-footer-areas>[class*="gwfoot-footer-"]{min-width:0;width:auto;max-width:100%;float:none;padding:5px;box-sizing:border-box;overflow-wrap:anywhere}
+.gwfoot-footer-areas img,.gwfoot-footer-disclaimer-content img{max-width:100%;height:auto}
+.gwfoot-footer-areas .widget-area{margin-bottom:10px}
+.gwfoot-footer-disclaimer-section{clear:both;padding:5px;overflow-wrap:anywhere}
+.gwfoot-footer-disclaimer-content{font-size:.875em;line-height:1.6;margin:20px 20px 10px;text-align:start}
+.gwfoot-footer-disclaimer-content .widget-title{font-size:1em}
+@media(max-width:640px){.gwfoot-footer-areas,.gwfoot-footer-areas.gwfoot-layout-equal,.gwfoot-footer-areas.gwfoot-layout-two-thirds{grid-template-columns:minmax(0,1fr);gap:1rem}.gwfoot-footer-disclaimer-content{margin-inline:5px}}

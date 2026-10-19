@@ -1,0 +1,47 @@
+== FAQ by topic ==
+
+== Setup and display ==
+
+= Does this change the theme’s regular footer widget columns? =
+No. The plugin changes the copyright and credits area. The theme’s existing footer widget columns remain separate.
+
+= How do I get started? =
+Add widgets to Footer Area #1, Footer Area #2 or Footer Disclaimer under Appearance > Widgets. Open Genesis > Widgetized Footer to review setup and display settings.
+
+= What happens when an area is empty? =
+Empty areas stay hidden. When both main areas are empty, the standard Genesis footer remains. One populated main area uses the full width. Widgets with their own visibility rules can still produce an empty result.
+
+= How do landing pages work? =
+The five historical landing templates are recognized: page_landing.php, page-landing.php, landing.php, template-landing.php and template_page-landing.php. Main areas are hidden there by default; the disclaimer remains enabled. Both are configurable. Theme templates may independently remove footer hooks.
+
+== Data and network ==
+
+= Will an update preserve my widgets? =
+Yes. All three sidebar IDs and both shortcodes are preserved. Deactivation and uninstall retain widget content, assignments and this website’s settings. No automatic content migration is needed.
+
+= Does network activation work? =
+Settings and widget assignments belong to each website. Theme integration runs only where Genesis is active. Other websites keep their theme output.
+
+= What data is sent outside the website? =
+The updater checks GitHub for plugin releases during WordPress update checks. The optional Library online catalog starts disabled. Explicit Library installations download selected packages. No telemetry is included.
+
+== Shortcodes and code configuration ==
+
+= Which shortcodes are available? =
+Use [gwfoot-widget-area area="footer-one"], area="footer-two" or area="footer-disclaimer". [gwfoot-lastupdated] accepts date_format, wrapper, class, text_before and text_after. Allowed wrappers: p, div, span, small and time. The latest date uses published, non-password-protected posts, pages, products and downloads.
+
+= What happens to existing code constants? =
+Explicit GWFOOT_REMOVE_LANDING_FOOTER, GWFOOT_NO_DISCLAIMER_WIDGET_AREA and GWFOOT_LANDING_DISCLAIMER retain precedence. Historically GWFOOT_LANDING_DISCLAIMER=false disables the disclaimer everywhere; this behavior is preserved. GWFOOT_NO_WIDGETS_SHORTCODE and GWFOOT_SHORTCODE_FEATURES remain supported. The settings screen lists detected constants.
+
+= Which output filters can I use? =
+Use gwfoot_filter_shortcode_widget_area. The historical misspelled gwnf_filter_shortcode_widget_area remains a fallback only without the Not Found plugin, preventing both plugins from sharing the same output filter. Original area title/description filters and the latest-date filter remain.
+
+== Compatibility and maintenance ==
+
+= Are the old child themes supported? =
+The existing Prose, Metro, Modern Blogger and Pretty Young Thing hook adapters remain. AgentPress and RealPro do not receive a second disclaimer. Their historical theme packages have not been tested in this build. Test custom child-theme CSS after updating.
+
+= How do updates and data cleanup work? =
+Updates use stable GitHub releases from this repository. The plugin is not distributed through WordPress.org. Removing the final Library host clears owned temporary data; shared settings remain by default. Widget content and website settings are preserved.
+
+

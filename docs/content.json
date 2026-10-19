@@ -1,0 +1,230 @@
+{
+  "en": {
+    "about": "Customize the Genesis copyright and credits footer with two widget areas and an optional disclaimer. Existing widgets and shortcode names are preserved.",
+    "install": "Upload the plugin ZIP under Plugins > Add New > Upload Plugin. Activate it, then open Genesis > Widgetized Footer. Add content under Appearance > Widgets. Without Genesis, settings are under Settings > Widgetized Footer and theme features pause safely.",
+    "features": [
+      "Setup status and widget counts with direct edit links.",
+      "One full-width area, or two responsive columns in 1:2, 1:1 or 2:1 proportions.",
+      "Landing-page visibility and an optional disclaimer inside or after the theme footer.",
+      "Shortcode copying, frontend testing and Customizer preview.",
+      "Local documentation, informal/formal German, deckerweb Library 1.0.0 and Updater 2.1.0."
+    ],
+    "faq": [
+      [
+        "Does this change the theme’s regular footer widget columns?",
+        "No. The plugin changes the copyright and credits area. The theme’s existing footer widget columns remain separate."
+      ],
+      [
+        "How do I get started?",
+        "Add widgets to Footer Area #1, Footer Area #2 or Footer Disclaimer under Appearance > Widgets. Open Genesis > Widgetized Footer to review setup and display settings."
+      ],
+      [
+        "What happens when an area is empty?",
+        "Empty areas stay hidden. When both main areas are empty, the standard Genesis footer remains. One populated main area uses the full width. Widgets with their own visibility rules can still produce an empty result."
+      ],
+      [
+        "How do landing pages work?",
+        "The five historical landing templates are recognized: page_landing.php, page-landing.php, landing.php, template-landing.php and template_page-landing.php. Main areas are hidden there by default; the disclaimer remains enabled. Both are configurable. Theme templates may independently remove footer hooks."
+      ],
+      [
+        "Will an update preserve my widgets?",
+        "Yes. All three sidebar IDs and both shortcodes are preserved. Deactivation and uninstall retain widget content, assignments and this website’s settings. No automatic content migration is needed."
+      ],
+      [
+        "Does network activation work?",
+        "Settings and widget assignments belong to each website. Theme integration runs only where Genesis is active. Other websites keep their theme output."
+      ],
+      [
+        "What data is sent outside the website?",
+        "The updater checks GitHub for plugin releases during WordPress update checks. The optional Library online catalog starts disabled. Explicit Library installations download selected packages. No telemetry is included."
+      ],
+      [
+        "Which shortcodes are available?",
+        "Use [gwfoot-widget-area area=\"footer-one\"], area=\"footer-two\" or area=\"footer-disclaimer\". [gwfoot-lastupdated] accepts date_format, wrapper, class, text_before and text_after. Allowed wrappers: p, div, span, small and time. The latest date uses published, non-password-protected posts, pages, products and downloads."
+      ],
+      [
+        "What happens to existing code constants?",
+        "Explicit GWFOOT_REMOVE_LANDING_FOOTER, GWFOOT_NO_DISCLAIMER_WIDGET_AREA and GWFOOT_LANDING_DISCLAIMER retain precedence. Historically GWFOOT_LANDING_DISCLAIMER=false disables the disclaimer everywhere; this behavior is preserved. GWFOOT_NO_WIDGETS_SHORTCODE and GWFOOT_SHORTCODE_FEATURES remain supported. The settings screen lists detected constants."
+      ],
+      [
+        "Are the old child themes supported?",
+        "The existing Prose, Metro, Modern Blogger and Pretty Young Thing hook adapters remain. AgentPress and RealPro do not receive a second disclaimer. Their historical theme packages have not been tested in this build. Test custom child-theme CSS after updating."
+      ],
+      [
+        "Which output filters can I use?",
+        "Use gwfoot_filter_shortcode_widget_area. The historical misspelled gwnf_filter_shortcode_widget_area remains a fallback only without the Not Found plugin, preventing both plugins from sharing the same output filter. Original area title/description filters and the latest-date filter remain."
+      ],
+      [
+        "How do updates and data cleanup work?",
+        "Updates use stable GitHub releases from this repository. The plugin is not distributed through WordPress.org. Removing the final Library host clears owned temporary data; shared settings remain by default. Widget content and website settings are preserved."
+      ]
+    ],
+    "changes": [
+      [
+        "2.0.0",
+        [
+          "New: Website settings with setup status, preview links and shortcode copying.",
+          "New: Responsive column ratios and configurable landing-page and disclaimer display.",
+          "Improved: Safe per-site pause without Genesis, preserved widget identities and formal German.",
+          "Fixed: Widget shortcode placement and missing-attribute warnings, Metro landing-page removal and disclaimer theme detection.",
+          "Fixed: Recursive widget-area shortcodes terminate safely; wrapper tags are validated.",
+          "Misc: Requires WordPress 6.4 and PHP 8.0. Includes Library 1.0.0 and Updater 2.1.0.",
+          "Improved: Latest-update queries skip unnecessary metadata and taxonomy caches.",
+          "Improved: Blueprint artwork and the new Genesis slogan in administration, documentation and plugin update information."
+        ]
+      ],
+      [
+        "1.4.0 · 2013-05-08",
+        [
+          "New: Metro child-theme integration and widget-area/latest-update shortcodes.",
+          "Improved: Conditional frontend loading, stylesheet caching and German translations."
+        ]
+      ],
+      [
+        "1.3.0 · 2012-12-15",
+        [
+          "New: Constants to disable widget shortcodes and the disclaimer area.",
+          "Improved: Widget class placeholders and translations."
+        ]
+      ],
+      [
+        "1.2.0 · 2012-08-20",
+        [
+          "New: Landing-template handling, Genesis help and RealPro integration.",
+          "Improved: Disclaimer styling, compressed CSS and translations."
+        ]
+      ],
+      [
+        "1.1.0 · 2012-04-27",
+        [
+          "New: Widget administration help.",
+          "Improved: Conditional stylesheet loading and plugin links.",
+          "Fixed: Second widget-area description."
+        ]
+      ],
+      [
+        "1.0.0 · 2012-04-25",
+        [
+          "New: Initial release."
+        ]
+      ]
+    ],
+    "support": "Use GitHub Issues for questions and ordinary bugs. Report vulnerabilities privately at https://github.com/deckerweb/genesis-widgetized-footer/security/advisories/new. Include plugin/Library versions, WordPress/PHP versions, reproduction steps and impact; never include credentials or post security details publicly.",
+    "license": "Copyright 2012–2026 David Decker – DECKERWEB. GPL v2 or later. Shared Library 1.0.0 and Updater 2.1.0: David Decker – DECKERWEB, GPL-2.0-or-later. The local document footer/renderer follows the shared deckerweb implementation used by Genesis Widgetized Not Found & 404 2.0.0. No theme implementation code is bundled. Artwork: David Decker – DECKERWEB, GPL-2.0-or-later. Manrope: Copyright 2018 The Manrope Project Authors, SIL OFL 1.1; see assets/licenses/Manrope-OFL.txt. SVG icon uses native shapes and an embedded OFL font, without raster images or external resources.",
+    "slogan": "Your Genesis footer. Your widgets."
+  },
+  "de": {
+    "about": "Gestalte die Genesis-Fußzeile für Copyright und Credits mit zwei Widget-Bereichen und einem optionalen Disclaimer. Vorhandene Widgets und Shortcode-Namen bleiben erhalten.",
+    "install": "Lade das Plugin-ZIP unter Plugins > Installieren > Plugin hochladen hoch. Aktiviere es und öffne Genesis > Widgetized Footer. Inhalte fügst du unter Design > Widgets hinzu. Ohne Genesis findest du die Einstellungen unter Einstellungen > Widgetized Footer; die Theme-Funktionen pausieren dann sicher.",
+    "features": [
+      "Einrichtungsstatus und Widget-Anzahl mit direkten Bearbeitungslinks.",
+      "Ein Bereich in voller Breite oder zwei responsive Spalten im Verhältnis 1:2, 1:1 oder 2:1.",
+      "Anzeige auf Landingpages und optionaler Disclaimer innerhalb oder nach dem Theme-Footer.",
+      "Shortcodes kopieren, Frontend testen und Customizer-Vorschau öffnen.",
+      "Lokale Dokumentation, Deutsch mit Du/Sie, deckerweb Library 1.0.0 und Updater 2.1.0."
+    ],
+    "faq": [
+      [
+        "Ändert das Plugin die normalen Footer-Widget-Spalten des Themes?",
+        "Nein. Das Plugin ändert den Copyright- und Credits-Bereich. Die vorhandenen Footer-Widget-Spalten des Themes bleiben eigenständig."
+      ],
+      [
+        "Wie beginne ich?",
+        "Füge unter Design > Widgets Inhalte zu Footer-Bereich #1, Footer-Bereich #2 oder Footer-Disclaimer hinzu. Unter Genesis > Widgetized Footer findest du Status und Anzeigeoptionen."
+      ],
+      [
+        "Was passiert bei leeren Bereichen?",
+        "Leere Bereiche bleiben verborgen. Sind beide Hauptbereiche leer, bleibt der Genesis-Standardfooter erhalten. Ein einzelner belegter Hauptbereich nutzt die volle Breite. Widgets mit eigenen Anzeigeregeln können trotzdem eine leere Ausgabe erzeugen."
+      ],
+      [
+        "Wie funktionieren Landingpages?",
+        "Erkannt werden die fünf bisherigen Templates: page_landing.php, page-landing.php, landing.php, template-landing.php und template_page-landing.php. Die Hauptbereiche sind dort standardmäßig verborgen, der Disclaimer bleibt aktiviert. Beides ist einstellbar. Theme-Templates können Footer-Hooks unabhängig davon entfernen."
+      ],
+      [
+        "Bleiben meine Widgets beim Update erhalten?",
+        "Ja. Alle drei Sidebar-IDs und beide Shortcodes bleiben erhalten. Deaktivierung und Deinstallation behalten Widget-Inhalte, Zuordnungen und die Einstellungen dieser Website. Eine automatische Inhaltsmigration ist nicht nötig."
+      ],
+      [
+        "Funktioniert die Netzwerkaktivierung?",
+        "Einstellungen und Widget-Zuordnungen gelten je Website. Die Theme-Integration läuft nur bei aktivem Genesis. Andere Websites behalten ihre Theme-Ausgabe."
+      ],
+      [
+        "Welche Daten verlassen die Website?",
+        "Der Updater fragt bei WordPress-Updateprüfungen GitHub nach Plugin-Releases ab. Der optionale Library-Onlinekatalog ist anfangs ausgeschaltet. Bewusste Library-Installationen laden die ausgewählten Pakete herunter. Es gibt keine Telemetrie."
+      ],
+      [
+        "Welche Shortcodes gibt es?",
+        "Verwende [gwfoot-widget-area area=\"footer-one\"], area=\"footer-two\" oder area=\"footer-disclaimer\". [gwfoot-lastupdated] unterstützt date_format, wrapper, class, text_before und text_after. Erlaubte Wrapper: p, div, span, small und time. Das letzte Datum berücksichtigt veröffentlichte, nicht passwortgeschützte Beiträge, Seiten, Produkte und Downloads."
+      ],
+      [
+        "Was passiert mit vorhandenen Code-Konstanten?",
+        "Explizite GWFOOT_REMOVE_LANDING_FOOTER, GWFOOT_NO_DISCLAIMER_WIDGET_AREA und GWFOOT_LANDING_DISCLAIMER behalten Vorrang. Bisher deaktiviert GWFOOT_LANDING_DISCLAIMER=false den Disclaimer überall; dieses Verhalten bleibt erhalten. GWFOOT_NO_WIDGETS_SHORTCODE und GWFOOT_SHORTCODE_FEATURES bleiben unterstützt. Die Einstellungsseite nennt erkannte Konstanten."
+      ],
+      [
+        "Werden die alten Child-Themes unterstützt?",
+        "Die bisherigen Hook-Anpassungen für Prose, Metro, Modern Blogger und Pretty Young Thing bleiben erhalten. AgentPress und RealPro erhalten keinen zweiten Disclaimer. Deren historische Theme-Pakete wurden in diesem Build nicht getestet. Eigenes Child-Theme-CSS nach dem Update prüfen."
+      ],
+      [
+        "Welche Ausgabefilter sind verfügbar?",
+        "Verwende gwfoot_filter_shortcode_widget_area. Der alte falsch benannte gwnf_filter_shortcode_widget_area bleibt nur ohne das Not-Found-Plugin als Kompatibilitätsweg erhalten, damit beide Plugins keinen Ausgabefilter teilen. Die bisherigen Titel-/Beschreibungsfilter der Bereiche und der Datumsfilter bleiben erhalten."
+      ],
+      [
+        "Wie funktionieren Updates und Bereinigung?",
+        "Updates kommen ausschließlich über stabile GitHub-Releases dieses Repositories. WordPress.org ist kein Vertriebskanal. Beim Entfernen des letzten Library-Hosts werden eigene temporäre Daten bereinigt; gemeinsame Einstellungen bleiben standardmäßig erhalten. Widget-Inhalte und Website-Einstellungen bleiben erhalten."
+      ]
+    ],
+    "changes": [
+      [
+        "2.0.0",
+        [
+          "Neu: Website-Einstellungen mit Einrichtungsstatus, Vorschau und Shortcode-Kopierfunktion.",
+          "Neu: Responsive Spaltenverhältnisse sowie einstellbare Landingpage- und Disclaimer-Anzeige.",
+          "Verbessert: Sichere Pause ohne Genesis je Website, erhaltene Widget-IDs und Deutsch mit Sie-Anrede.",
+          "Behoben: Position der Widget-Shortcode-Ausgabe, Warnung ohne Bereichsangabe, Metro-Landingpage-Ausnahme und Disclaimer-Theme-Erkennung.",
+          "Behoben: Rekursive Widget-Bereich-Shortcodes enden sicher; Wrapper-Tags werden geprüft.",
+          "Sonstiges: Benötigt WordPress 6.4 und PHP 8.0. Enthält Library 1.0.0 und Updater 2.1.0.",
+          "Verbessert: Die Abfrage des letzten Änderungsdatums lädt keine unbenötigten Metadaten oder Taxonomie-Zuordnungen.",
+          "Verbessert: Freigegebene Blueprint-Grafiken und neuer Genesis-Slogan im Admin, in der Dokumentation und in Plugin-Updateinformationen."
+        ]
+      ],
+      [
+        "1.4.0 · 2013-05-08",
+        [
+          "Neu: Metro-Child-Theme-Anpassung und Shortcodes für Widget-Bereiche und letztes Änderungsdatum.",
+          "Verbessert: Bedingtes Laden im Frontend, Stylesheet-Cache und deutsche Übersetzungen."
+        ]
+      ],
+      [
+        "1.3.0 · 2012-12-15",
+        [
+          "Neu: Konstanten zum Abschalten von Widget-Shortcodes und Disclaimer-Bereich.",
+          "Verbessert: Klassen-Platzhalter für Widgets und Übersetzungen."
+        ]
+      ],
+      [
+        "1.2.0 · 2012-08-20",
+        [
+          "Neu: Landingpage-Templates, Genesis-Hilfe und RealPro-Anpassung.",
+          "Verbessert: Disclaimer-Darstellung, komprimiertes CSS und Übersetzungen."
+        ]
+      ],
+      [
+        "1.1.0 · 2012-04-27",
+        [
+          "Neu: Hilfe in der Widget-Verwaltung.",
+          "Verbessert: Bedingtes Laden von Stylesheets und Plugin-Links.",
+          "Behoben: Beschreibung des zweiten Widget-Bereichs."
+        ]
+      ],
+      [
+        "1.0.0 · 2012-04-25",
+        [
+          "Neu: Erstveröffentlichung."
+        ]
+      ]
+    ],
+    "support": "Fragen und normale Fehler bitte über GitHub Issues melden. Sicherheitsprobleme vertraulich über https://github.com/deckerweb/genesis-widgetized-footer/security/advisories/new melden. Bitte Plugin-/Library-Version, WordPress-/PHP-Version, Reproduktionsschritte und Auswirkungen angeben; keine Zugangsdaten teilen. Sicherheitsdetails nicht öffentlich posten.",
+    "license": "Copyright 2012–2026 David Decker – DECKERWEB. GPL v2 oder höher. Gemeinsame Library 1.0.0 und Updater 2.1.0: David Decker – DECKERWEB, GPL-2.0-or-later. Der lokale Dokumentations-Footer samt Renderer folgt der gemeinsamen deckerweb-Implementierung aus Genesis Widgetized Not Found & 404 2.0.0. Theme-Implementierungscode ist nicht enthalten. Grafikgestaltung: David Decker – DECKERWEB, GPL-2.0-or-later. Manrope: Copyright 2018 The Manrope Project Authors, SIL OFL 1.1; siehe assets/licenses/Manrope-OFL.txt. SVG-Icon mit nativen Formen und eingebetteter OFL-Schrift, ohne Rasterbilder oder externe Ressourcen.",
+    "slogan": "Dein Genesis Footer. Deine Widgets."
+  }
+}

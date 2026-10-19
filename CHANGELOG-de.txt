@@ -1,0 +1,31 @@
+== Changelog ==
+
+= 2.0.0 =
+* Neu: Website-Einstellungen mit Einrichtungsstatus, Vorschau und Shortcode-Kopierfunktion.
+* Neu: Responsive Spaltenverhältnisse sowie einstellbare Landingpage- und Disclaimer-Anzeige.
+* Verbessert: Sichere Pause ohne Genesis je Website, erhaltene Widget-IDs und Deutsch mit Sie-Anrede.
+* Behoben: Position der Widget-Shortcode-Ausgabe, Warnung ohne Bereichsangabe, Metro-Landingpage-Ausnahme und Disclaimer-Theme-Erkennung.
+* Behoben: Rekursive Widget-Bereich-Shortcodes enden sicher; Wrapper-Tags werden geprüft.
+* Sonstiges: Benötigt WordPress 6.4 und PHP 8.0. Enthält Library 1.0.0 und Updater 2.1.0.
+* Verbessert: Die Abfrage des letzten Änderungsdatums lädt keine unbenötigten Metadaten oder Taxonomie-Zuordnungen.
+* Verbessert: Freigegebene Blueprint-Grafiken und neuer Genesis-Slogan im Admin, in der Dokumentation und in Plugin-Updateinformationen.
+
+= 1.4.0 · 2013-05-08 =
+* Neu: Metro-Child-Theme-Anpassung und Shortcodes für Widget-Bereiche und letztes Änderungsdatum.
+* Verbessert: Bedingtes Laden im Frontend, Stylesheet-Cache und deutsche Übersetzungen.
+
+= 1.3.0 · 2012-12-15 =
+* Neu: Konstanten zum Abschalten von Widget-Shortcodes und Disclaimer-Bereich.
+* Verbessert: Klassen-Platzhalter für Widgets und Übersetzungen.
+
+= 1.2.0 · 2012-08-20 =
+* Neu: Landingpage-Templates, Genesis-Hilfe und RealPro-Anpassung.
+* Verbessert: Disclaimer-Darstellung, komprimiertes CSS und Übersetzungen.
+
+= 1.1.0 · 2012-04-27 =
+* Neu: Hilfe in der Widget-Verwaltung.
+* Verbessert: Bedingtes Laden von Stylesheets und Plugin-Links.
+* Behoben: Beschreibung des zweiten Widget-Bereichs.
+
+= 1.0.0 · 2012-04-25 =
+* Neu: Erstveröffentlichung.

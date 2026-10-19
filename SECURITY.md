@@ -1,0 +1,5 @@
+# Security
+
+[Deutsch](SECURITY-de.md)
+
+Use GitHub Issues for questions and ordinary bugs. Report vulnerabilities privately at https://github.com/deckerweb/genesis-widgetized-footer/security/advisories/new. Include plugin/Library versions, WordPress/PHP versions, reproduction steps and impact; never include credentials or post security details publicly.
