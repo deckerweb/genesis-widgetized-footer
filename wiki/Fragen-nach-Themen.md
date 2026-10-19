@@ -29,6 +29,9 @@ Einstellungen und Widget-Zuordnungen gelten je Website. Die Theme-Integration l�
 ## Welche Daten verlassen die Website?
 Der Updater fragt bei WordPress-Updateprüfungen GitHub nach Plugin-Releases ab. Der optionale Library-Onlinekatalog ist anfangs ausgeschaltet. Bewusste Library-Installationen laden die ausgewählten Pakete herunter. Es gibt keine Telemetrie.
 
+## Welche Einstellungen werden gespeichert und wer darf sie ändern?
+Die Option gwfoot_settings enthält fünf Anzeigeeinstellungen je Website. Widget-Instanzen und Bereichszuordnungen bleiben in den nativen Widget-Optionen von WordPress. Für die Footer-Einstellungen werden edit_theme_options und zum Speichern die Nonce der Settings API benötigt. Library-Einstellungen und temporäre Update-Caches sind getrennte gemeinsame Komponentendaten; Installation und Updates benötigen die entsprechenden WordPress-Berechtigungen. Es entstehen keine Telemetrie und keine Kopie persönlicher Inhalte.
+
 ## Shortcodes und Code-Konfiguration
 
 ## Welche Shortcodes gibt es?

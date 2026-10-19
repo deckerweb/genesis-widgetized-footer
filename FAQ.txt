@@ -25,6 +25,9 @@ Settings and widget assignments belong to each website. Theme integration runs o
 = What data is sent outside the website? =
 The updater checks GitHub for plugin releases during WordPress update checks. The optional Library online catalog starts disabled. Explicit Library installations download selected packages. No telemetry is included.
 
+= Which settings are stored and who can change them? =
+The gwfoot_settings option stores five display settings per website. Widget instances and sidebar assignments remain in WordPress’s native widget options. Users need edit_theme_options to open and save this website’s footer settings, with the Settings API nonce. Library preferences and temporary update caches are separate shared component data; installing or updating plugins requires the corresponding WordPress capabilities. No telemetry or personal content copy is created.
+
 == Shortcodes and code configuration ==
 
 = Which shortcodes are available? =

@@ -57,6 +57,10 @@
       [
         "How do updates and data cleanup work?",
         "Updates use stable GitHub releases from this repository. The plugin is not distributed through WordPress.org. Removing the final Library host clears owned temporary data; shared settings remain by default. Widget content and website settings are preserved."
+      ],
+      [
+        "Which settings are stored and who can change them?",
+        "The gwfoot_settings option stores five display settings per website. Widget instances and sidebar assignments remain in WordPress’s native widget options. Users need edit_theme_options to open and save this website’s footer settings, with the Settings API nonce. Library preferences and temporary update caches are separate shared component data; installing or updating plugins requires the corresponding WordPress capabilities. No telemetry or personal content copy is created."
       ]
     ],
     "changes": [
@@ -171,6 +175,10 @@
       [
         "Wie funktionieren Updates und Bereinigung?",
         "Updates kommen ausschließlich über stabile GitHub-Releases dieses Repositories. WordPress.org ist kein Vertriebskanal. Beim Entfernen des letzten Library-Hosts werden eigene temporäre Daten bereinigt; gemeinsame Einstellungen bleiben standardmäßig erhalten. Widget-Inhalte und Website-Einstellungen bleiben erhalten."
+      ],
+      [
+        "Welche Einstellungen werden gespeichert und wer darf sie ändern?",
+        "Die Option gwfoot_settings enthält fünf Anzeigeeinstellungen je Website. Widget-Instanzen und Bereichszuordnungen bleiben in den nativen Widget-Optionen von WordPress. Für die Footer-Einstellungen werden edit_theme_options und zum Speichern die Nonce der Settings API benötigt. Library-Einstellungen und temporäre Update-Caches sind getrennte gemeinsame Komponentendaten; Installation und Updates benötigen die entsprechenden WordPress-Berechtigungen. Es entstehen keine Telemetrie und keine Kopie persönlicher Inhalte."
       ]
     ],
     "changes": [
