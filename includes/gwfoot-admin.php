@@ -147,8 +147,9 @@ function ddw_gwfoot_admin_footer() {
  require_once GWFOOT_PLUGIN_DIR . '/includes/deckerweb-changelog-v1.php';
  require_once GWFOOT_PLUGIN_DIR . '/includes/deckerweb-admin-footer-v1.php';
  $de = str_starts_with( determine_locale(), 'de_' );
+ $formal = 'de_DE_formal' === determine_locale();
  $documents = array();
- foreach ( array( 'readme' => array( $de ? 'README-de.txt' : 'README.txt', __( 'Documentation', 'genesis-widgetized-footer' ) ), 'faq' => array( $de ? 'FAQ-de.txt' : 'FAQ.txt', __( 'FAQ', 'genesis-widgetized-footer' ) ), 'changelog' => array( $de ? 'CHANGELOG-de.txt' : 'CHANGELOG.txt', __( 'Changelog', 'genesis-widgetized-footer' ) ) ) as $key => $data ) {
+ foreach ( array( 'readme' => array( $de ? ( $formal ? 'README-de-formal.txt' : 'README-de.txt' ) : 'README.txt', __( 'Documentation', 'genesis-widgetized-footer' ) ), 'faq' => array( $de ? ( $formal ? 'FAQ-de-formal.txt' : 'FAQ-de.txt' ) : 'FAQ.txt', __( 'FAQ', 'genesis-widgetized-footer' ) ), 'changelog' => array( $de ? ( $formal ? 'CHANGELOG-de-formal.txt' : 'CHANGELOG-de.txt' ) : 'CHANGELOG.txt', __( 'Changelog', 'genesis-widgetized-footer' ) ) ) as $key => $data ) {
   $documents[$key] = array( 'label' => $data[1], 'url' => plugins_url( $data[0], GWFOOT_PLUGIN_FILE ), 'text' => (string) file_get_contents( GWFOOT_PLUGIN_DIR . '/' . $data[0] ) );
  }
  \Deckerweb\AdminFooter\V1\StructuredFooter::render( array( 'id' => 'gwfoot', 'about' => __( 'About this plugin', 'genesis-widgetized-footer' ), 'name' => 'Genesis Widgetized Footer', 'version' => GWFOOT_VERSION, 'version_label' => __( 'Version', 'genesis-widgetized-footer' ), 'slogan' => __( 'Your Genesis footer. Your widgets.', 'genesis-widgetized-footer' ), 'copyright' => '© 2012–2026', 'repository' => 'https://github.com/deckerweb', 'website' => __( 'More plugins', 'genesis-widgetized-footer' ), 'close' => __( 'Close', 'genesis-widgetized-footer' ), 'documents' => $documents ) );
@@ -166,7 +167,8 @@ add_action( 'load-widgets.php', 'ddw_gwfoot_widgets_help_tab' );
 function ddw_gwfoot_plugin_links( $links, $file ) {
  if ( $file !== plugin_basename( GWFOOT_PLUGIN_FILE ) ) { return $links; }
  $de = str_starts_with( determine_locale(), 'de_' );
- $links[] = '<a href="' . esc_url( plugins_url( $de ? 'README-de.txt' : 'README.txt', GWFOOT_PLUGIN_FILE ) ) . '">' . esc_html__( 'Documentation', 'genesis-widgetized-footer' ) . '</a>';
+ $formal = 'de_DE_formal' === determine_locale();
+ $links[] = '<a href="' . esc_url( plugins_url( $de ? ( $formal ? 'README-de-formal.txt' : 'README-de.txt' ) : 'README.txt', GWFOOT_PLUGIN_FILE ) ) . '">' . esc_html__( 'Documentation', 'genesis-widgetized-footer' ) . '</a>';
  /**
   * Filter this plugin's row metadata, including its local documentation link.
   * @since 1.0.0

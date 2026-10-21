@@ -7,7 +7,7 @@
       "One full-width area, or two responsive columns in 1:2, 1:1 or 2:1 proportions.",
       "Landing-page visibility and an optional disclaimer inside or after the theme footer.",
       "Shortcode copying, frontend testing and Customizer preview.",
-      "Local documentation, informal/formal German, deckerweb Library 1.0.0 and Updater 2.1.0."
+      "Local documentation, informal/formal German, deckerweb Library 1.1.0 and Updater 2.2.0."
     ],
     "faq": [
       [
@@ -65,16 +65,25 @@
     ],
     "changes": [
       [
+        "2.0.1",
+        [
+          "Improved: deckerweb Library 1.1.0 and Updater 2.2.0 with more reliable shared update handling.",
+          "Improved: Safer local documentation dialogs.",
+          "Fixed: Local documentation follows the formal German administration language.",
+          "Misc: Requires PHP 8.1; WordPress 6.4 remains supported."
+        ]
+      ],
+      [
         "2.0.0",
         [
           "New: Website settings with setup status, preview links and shortcode copying.",
           "New: Responsive column ratios and configurable landing-page and disclaimer display.",
           "Improved: Safe per-site pause without Genesis, preserved widget identities and formal German.",
+          "Improved: Latest-update queries skip unnecessary metadata and taxonomy caches.",
+          "Improved: Blueprint artwork and the new Genesis slogan in administration, documentation and plugin update information.",
           "Fixed: Widget shortcode placement and missing-attribute warnings, Metro landing-page removal and disclaimer theme detection.",
           "Fixed: Recursive widget-area shortcodes terminate safely; wrapper tags are validated.",
-          "Misc: Requires WordPress 6.4 and PHP 8.0. Includes Library 1.0.0 and Updater 2.1.0.",
-          "Improved: Latest-update queries skip unnecessary metadata and taxonomy caches.",
-          "Improved: Blueprint artwork and the new Genesis slogan in administration, documentation and plugin update information."
+          "Misc: Requires WordPress 6.4 and PHP 8.0. Includes Library 1.0.0 and Updater 2.1.0."
         ]
       ],
       [
@@ -114,7 +123,7 @@
       ]
     ],
     "support": "Use GitHub Issues for questions and ordinary bugs. Report vulnerabilities privately at https://github.com/deckerweb/genesis-widgetized-footer/security/advisories/new. Include plugin/Library versions, WordPress/PHP versions, reproduction steps and impact; never include credentials or post security details publicly.",
-    "license": "Copyright 2012–2026 David Decker – DECKERWEB. GPL v2 or later. Shared Library 1.0.0 and Updater 2.1.0: David Decker – DECKERWEB, GPL-2.0-or-later. The local document footer/renderer follows the shared deckerweb implementation used by Genesis Widgetized Not Found & 404 2.0.0. No theme implementation code is bundled. Artwork: David Decker – DECKERWEB, GPL-2.0-or-later. Manrope: Copyright 2018 The Manrope Project Authors, SIL OFL 1.1; see assets/licenses/Manrope-OFL.txt. SVG icon uses native shapes and an embedded OFL font, without raster images or external resources.",
+    "license": "Copyright 2012–2026 David Decker – DECKERWEB. GPL v2 or later. Shared Library 1.1.0 and Updater 2.2.0: David Decker – DECKERWEB, GPL-2.0-or-later. The local document footer/renderer follows the shared deckerweb implementation used by Genesis Widgetized Not Found & 404 2.0.0. No theme implementation code is bundled. Artwork: David Decker – DECKERWEB, GPL-2.0-or-later. Manrope: Copyright 2018 The Manrope Project Authors, SIL OFL 1.1; see assets/licenses/Manrope-OFL.txt. SVG icon uses native shapes and an embedded OFL font, without raster images or external resources.",
     "slogan": "Your Genesis footer. Your widgets."
   },
   "de": {
@@ -125,7 +134,7 @@
       "Ein Bereich in voller Breite oder zwei responsive Spalten im Verhältnis 1:2, 1:1 oder 2:1.",
       "Anzeige auf Landingpages und optionaler Disclaimer innerhalb oder nach dem Theme-Footer.",
       "Shortcodes kopieren, Frontend testen und Customizer-Vorschau öffnen.",
-      "Lokale Dokumentation, Deutsch mit Du/Sie, deckerweb Library 1.0.0 und Updater 2.1.0."
+      "Lokale Dokumentation, Deutsch mit Du/Sie, deckerweb Library 1.1.0 und Updater 2.2.0."
     ],
     "faq": [
       [
@@ -183,16 +192,25 @@
     ],
     "changes": [
       [
+        "2.0.1",
+        [
+          "Verbessert: deckerweb Library 1.1.0 und Updater 2.2.0 mit robusterer gemeinsamer Updateversorgung.",
+          "Verbessert: Sicherere lokale Dokumentationsdialoge.",
+          "Behoben: Lokale Dokumentation berücksichtigt die formelle deutsche Admin-Sprache.",
+          "Sonstiges: Benötigt PHP 8.1; WordPress 6.4 bleibt unterstützt."
+        ]
+      ],
+      [
         "2.0.0",
         [
           "Neu: Website-Einstellungen mit Einrichtungsstatus, Vorschau und Shortcode-Kopierfunktion.",
           "Neu: Responsive Spaltenverhältnisse sowie einstellbare Landingpage- und Disclaimer-Anzeige.",
           "Verbessert: Sichere Pause ohne Genesis je Website, erhaltene Widget-IDs und Deutsch mit Sie-Anrede.",
+          "Verbessert: Die Abfrage des letzten Änderungsdatums lädt keine unbenötigten Metadaten oder Taxonomie-Zuordnungen.",
+          "Verbessert: Freigegebene Blueprint-Grafiken und neuer Genesis-Slogan im Admin, in der Dokumentation und in Plugin-Updateinformationen.",
           "Behoben: Position der Widget-Shortcode-Ausgabe, Warnung ohne Bereichsangabe, Metro-Landingpage-Ausnahme und Disclaimer-Theme-Erkennung.",
           "Behoben: Rekursive Widget-Bereich-Shortcodes enden sicher; Wrapper-Tags werden geprüft.",
-          "Sonstiges: Benötigt WordPress 6.4 und PHP 8.0. Enthält Library 1.0.0 und Updater 2.1.0.",
-          "Verbessert: Die Abfrage des letzten Änderungsdatums lädt keine unbenötigten Metadaten oder Taxonomie-Zuordnungen.",
-          "Verbessert: Freigegebene Blueprint-Grafiken und neuer Genesis-Slogan im Admin, in der Dokumentation und in Plugin-Updateinformationen."
+          "Sonstiges: Benötigt WordPress 6.4 und PHP 8.0. Enthält Library 1.0.0 und Updater 2.1.0."
         ]
       ],
       [
@@ -232,7 +250,7 @@
       ]
     ],
     "support": "Fragen und normale Fehler bitte über GitHub Issues melden. Sicherheitsprobleme vertraulich über https://github.com/deckerweb/genesis-widgetized-footer/security/advisories/new melden. Bitte Plugin-/Library-Version, WordPress-/PHP-Version, Reproduktionsschritte und Auswirkungen angeben; keine Zugangsdaten teilen. Sicherheitsdetails nicht öffentlich posten.",
-    "license": "Copyright 2012–2026 David Decker – DECKERWEB. GPL v2 oder höher. Gemeinsame Library 1.0.0 und Updater 2.1.0: David Decker – DECKERWEB, GPL-2.0-or-later. Der lokale Dokumentations-Footer samt Renderer folgt der gemeinsamen deckerweb-Implementierung aus Genesis Widgetized Not Found & 404 2.0.0. Theme-Implementierungscode ist nicht enthalten. Grafikgestaltung: David Decker – DECKERWEB, GPL-2.0-or-later. Manrope: Copyright 2018 The Manrope Project Authors, SIL OFL 1.1; siehe assets/licenses/Manrope-OFL.txt. SVG-Icon mit nativen Formen und eingebetteter OFL-Schrift, ohne Rasterbilder oder externe Ressourcen.",
+    "license": "Copyright 2012–2026 David Decker – DECKERWEB. GPL v2 oder höher. Gemeinsame Library 1.1.0 und Updater 2.2.0: David Decker – DECKERWEB, GPL-2.0-or-later. Der lokale Dokumentations-Footer samt Renderer folgt der gemeinsamen deckerweb-Implementierung aus Genesis Widgetized Not Found & 404 2.0.0. Theme-Implementierungscode ist nicht enthalten. Grafikgestaltung: David Decker – DECKERWEB, GPL-2.0-or-later. Manrope: Copyright 2018 The Manrope Project Authors, SIL OFL 1.1; siehe assets/licenses/Manrope-OFL.txt. SVG-Icon mit nativen Formen und eingebetteter OFL-Schrift, ohne Rasterbilder oder externe Ressourcen.",
     "slogan": "Dein Genesis Footer. Deine Widgets."
   }
 }

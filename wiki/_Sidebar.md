@@ -1,7 +1,17 @@
-**Genesis Widgetized Footer**
+## English
 
-- [English](Home)
+- [Home](Home)
+- [Getting started](Getting-started)
+- [User guide](User-guide)
 - [FAQ by topic](FAQ-by-topic)
-- [Deutsch](Start)
+- [Changelog](Changelog)
+- [Help and security](Help-and-security)
+
+## Deutsch
+
+- [Startseite](Start)
+- [Erste Schritte](Erste-Schritte)
+- [Anleitung](Anleitung)
 - [Fragen nach Themen](Fragen-nach-Themen)
-- [GitHub](https://github.com/deckerweb/genesis-widgetized-footer)
+- [Änderungsverlauf](Aenderungsverlauf)
+- [Hilfe und Sicherheit](Hilfe-und-Sicherheit)

@@ -1,5 +1,5 @@
 msgid ""
-msgstr "Project-Id-Version: Genesis Widgetized Footer 2.0.0\nLanguage: de_DE_formal\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\nPO-Revision-Date: 2026-10-19 12:00+0200\nLast-Translator: David Decker\nLanguage-Team: German\n"
+msgstr "Project-Id-Version: Genesis Widgetized Footer 2.0.1\nLanguage: de_DE_formal\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\nPO-Revision-Date: 2026-10-21 12:00+0200\nLast-Translator: David Decker\nLanguage-Team: German\n"
 
 msgid "%s is installed but inactive. Activate it first."
 msgstr "%s ist installiert, aber inaktiv. Bitte zuerst aktivieren."
@@ -287,7 +287,7 @@ msgid "Genesis is not active on this website. Footer features are paused; saved 
 msgstr "Genesis ist auf dieser Website nicht aktiv. Die Footer-Funktionen pausieren; gespeicherte Widgets und Einstellungen bleiben erhalten."
 
 msgid "Git Updater is active. If a deckerweb installation or update fails, temporarily deactivate Git Updater and retry. Reactivate it afterwards if other plugins or themes need it. Only leave it disabled when those extensions have another reliable update provider."
-msgstr "Git Updater ist aktiv. Falls eine deckerweb-Installation oder Aktualisierung fehlschlägt, deaktivieren Sie Git Updater vorübergehend und wiederholen Sie den Vorgang. Aktivieren Sie ihn danach wieder, wenn andere Plugins oder Themes ihn benötigen. Lassen Sie ihn nur dauerhaft deaktiviert, wenn diese Erweiterungen einen anderen zuverlässigen Updateweg besitzen."
+msgstr "Git Updater ist aktiv. Wenn eine deckerweb-Installation oder ein Update fehlschlägt, deaktivieren Sie Git Updater vorübergehend und versuchen Sie es erneut. Aktivieren Sie ihn danach wieder, wenn andere Plugins oder Themes ihn benötigen. Lassen Sie ihn nur dauerhaft deaktiviert, wenn diese Erweiterungen einen anderen zuverlässigen Updateweg besitzen."
 
 msgid "GitHub Stars"
 msgstr "GitHub-Sterne"
@@ -551,7 +551,7 @@ msgid "POST required."
 msgstr "Eine POST-Anfrage ist erforderlich."
 
 msgid "Permission denied."
-msgstr "Keine Berechtigung."
+msgstr "Zugriff verweigert."
 
 msgid "Permission denied. Reload the page and check your permissions."
 msgstr "Zugriff verweigert. Laden Sie die Seite neu und prüfen Sie Ihre Berechtigungen."
@@ -582,6 +582,9 @@ msgstr "Der Private-Modus muss ein boolescher Wert sein."
 
 msgid "Product website"
 msgstr "Produktwebsite"
+
+msgid "Public catalog callbacks require both providers and cannot be used in private mode."
+msgstr "Öffentliche Katalog-Callbacks benötigen beide Anbieter und können nicht im Private-Modus verwendet werden."
 
 msgid "Recently updated"
 msgstr "Zuletzt aktualisiert"
@@ -716,10 +719,10 @@ msgid "The approved package could not be verified."
 msgstr "Das freigegebene Paket konnte nicht geprüft werden."
 
 msgid "The approved release changed. Refresh updates first."
-msgstr "Das freigegebene Release hat sich geändert. Bitte zuerst die Updates aktualisieren."
+msgstr "Die freigegebene Version hat sich geändert. Suchen Sie zuerst erneut nach Updates."
 
 msgid "The approved release could not be verified."
-msgstr "Der freigegebene Release konnte nicht geprüft werden."
+msgstr "Die freigegebene Version konnte nicht geprüft werden."
 
 msgid "The catalog URL is not an allowed first-party HTTPS endpoint."
 msgstr "Die Katalog-URL ist keine erlaubte eigene HTTPS-Quelle."

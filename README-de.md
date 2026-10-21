@@ -8,7 +8,7 @@ Dein Genesis Footer. Deine Widgets.
 
 Gestalte die Genesis-Fußzeile für Copyright und Credits mit zwei Widget-Bereichen und einem optionalen Disclaimer. Vorhandene Widgets und Shortcode-Namen bleiben erhalten.
 
-**2.0.0 · WordPress ≥6.4 · PHP ≥8.0 · Genesis Framework**
+**2.0.1 · WordPress ≥6.4 · PHP ≥8.1 · Genesis Framework**
 
 [FAQ](FAQ-de.txt) · [Änderungsverlauf](CHANGELOG-de.txt)
 
@@ -27,7 +27,7 @@ Gestalte die Genesis-Fußzeile für Copyright und Credits mit zwei Widget-Bereic
 * Ein Bereich in voller Breite oder zwei responsive Spalten im Verhältnis 1:2, 1:1 oder 2:1.
 * Anzeige auf Landingpages und optionaler Disclaimer innerhalb oder nach dem Theme-Footer.
 * Shortcodes kopieren, Frontend testen und Customizer-Vorschau öffnen.
-* Lokale Dokumentation, Deutsch mit Du/Sie, deckerweb Library 1.0.0 und Updater 2.1.0.
+* Lokale Dokumentation, Deutsch mit Du/Sie, deckerweb Library 1.1.0 und Updater 2.2.0.
 
 ## Installation
 
@@ -71,16 +71,23 @@ Vollständige Fragen nach Themen: FAQ-de.txt
 
 ## Changelog
 
+### 2.0.1
+
+* Verbessert: deckerweb Library 1.1.0 und Updater 2.2.0 mit robusterer gemeinsamer Updateversorgung.
+* Verbessert: Sicherere lokale Dokumentationsdialoge.
+* Behoben: Lokale Dokumentation berücksichtigt die formelle deutsche Admin-Sprache.
+* Sonstiges: Benötigt PHP 8.1; WordPress 6.4 bleibt unterstützt.
+
 ### 2.0.0
 
 * Neu: Website-Einstellungen mit Einrichtungsstatus, Vorschau und Shortcode-Kopierfunktion.
 * Neu: Responsive Spaltenverhältnisse sowie einstellbare Landingpage- und Disclaimer-Anzeige.
 * Verbessert: Sichere Pause ohne Genesis je Website, erhaltene Widget-IDs und Deutsch mit Sie-Anrede.
+* Verbessert: Die Abfrage des letzten Änderungsdatums lädt keine unbenötigten Metadaten oder Taxonomie-Zuordnungen.
+* Verbessert: Freigegebene Blueprint-Grafiken und neuer Genesis-Slogan im Admin, in der Dokumentation und in Plugin-Updateinformationen.
 * Behoben: Position der Widget-Shortcode-Ausgabe, Warnung ohne Bereichsangabe, Metro-Landingpage-Ausnahme und Disclaimer-Theme-Erkennung.
 * Behoben: Rekursive Widget-Bereich-Shortcodes enden sicher; Wrapper-Tags werden geprüft.
 * Sonstiges: Benötigt WordPress 6.4 und PHP 8.0. Enthält Library 1.0.0 und Updater 2.1.0.
-* Verbessert: Die Abfrage des letzten Änderungsdatums lädt keine unbenötigten Metadaten oder Taxonomie-Zuordnungen.
-* Verbessert: Freigegebene Blueprint-Grafiken und neuer Genesis-Slogan im Admin, in der Dokumentation und in Plugin-Updateinformationen.
 
 ### 1.4.0 · 2013-05-08
 
@@ -121,6 +128,6 @@ Updates kommen ausschließlich über stabile GitHub-Releases dieses Repositories
 
 ## Copyright / GPL
 
-Copyright 2012–2026 David Decker – DECKERWEB. GPL v2 oder höher. Gemeinsame Library 1.0.0 und Updater 2.1.0: David Decker – DECKERWEB, GPL-2.0-or-later. Der lokale Dokumentations-Footer samt Renderer folgt der gemeinsamen deckerweb-Implementierung aus Genesis Widgetized Not Found & 404 2.0.0. Theme-Implementierungscode ist nicht enthalten. Grafikgestaltung: David Decker – DECKERWEB, GPL-2.0-or-later. Manrope: Copyright 2018 The Manrope Project Authors, SIL OFL 1.1; siehe assets/licenses/Manrope-OFL.txt. SVG-Icon mit nativen Formen und eingebetteter OFL-Schrift, ohne Rasterbilder oder externe Ressourcen.
+Copyright 2012–2026 David Decker – DECKERWEB. GPL v2 oder höher. Gemeinsame Library 1.1.0 und Updater 2.2.0: David Decker – DECKERWEB, GPL-2.0-or-later. Der lokale Dokumentations-Footer samt Renderer folgt der gemeinsamen deckerweb-Implementierung aus Genesis Widgetized Not Found & 404 2.0.0. Theme-Implementierungscode ist nicht enthalten. Grafikgestaltung: David Decker – DECKERWEB, GPL-2.0-or-later. Manrope: Copyright 2018 The Manrope Project Authors, SIL OFL 1.1; siehe assets/licenses/Manrope-OFL.txt. SVG-Icon mit nativen Formen und eingebetteter OFL-Schrift, ohne Rasterbilder oder externe Ressourcen.
 
 Unterstützung: [Ko-fi](https://ko-fi.com/deckerweb) · [Buy Me a Coffee](https://buymeacoffee.com/daveshine) · [PayPal](https://paypal.me/deckerweb)

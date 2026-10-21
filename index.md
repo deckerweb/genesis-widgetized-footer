@@ -12,7 +12,7 @@ Your Genesis footer. Your widgets.
 
 Customize the Genesis copyright and credits footer with two widget areas and an optional disclaimer. Existing widgets and shortcode names are preserved.
 
-**2.0.0 · WordPress ≥6.4 · PHP ≥8.0 · Genesis Framework**
+**2.0.1 · WordPress ≥6.4 · PHP ≥8.1 · Genesis Framework**
 
 [FAQ](FAQ.txt) · [Changelog](CHANGELOG.txt)
 
@@ -31,7 +31,7 @@ Customize the Genesis copyright and credits footer with two widget areas and an 
 * One full-width area, or two responsive columns in 1:2, 1:1 or 2:1 proportions.
 * Landing-page visibility and an optional disclaimer inside or after the theme footer.
 * Shortcode copying, frontend testing and Customizer preview.
-* Local documentation, informal/formal German, deckerweb Library 1.0.0 and Updater 2.1.0.
+* Local documentation, informal/formal German, deckerweb Library 1.1.0 and Updater 2.2.0.
 
 ## Installation
 
@@ -75,16 +75,23 @@ Complete FAQ by topic: FAQ.txt
 
 ## Changelog
 
+### 2.0.1
+
+* Improved: deckerweb Library 1.1.0 and Updater 2.2.0 with more reliable shared update handling.
+* Improved: Safer local documentation dialogs.
+* Fixed: Local documentation follows the formal German administration language.
+* Misc: Requires PHP 8.1; WordPress 6.4 remains supported.
+
 ### 2.0.0
 
 * New: Website settings with setup status, preview links and shortcode copying.
 * New: Responsive column ratios and configurable landing-page and disclaimer display.
 * Improved: Safe per-site pause without Genesis, preserved widget identities and formal German.
+* Improved: Latest-update queries skip unnecessary metadata and taxonomy caches.
+* Improved: Blueprint artwork and the new Genesis slogan in administration, documentation and plugin update information.
 * Fixed: Widget shortcode placement and missing-attribute warnings, Metro landing-page removal and disclaimer theme detection.
 * Fixed: Recursive widget-area shortcodes terminate safely; wrapper tags are validated.
 * Misc: Requires WordPress 6.4 and PHP 8.0. Includes Library 1.0.0 and Updater 2.1.0.
-* Improved: Latest-update queries skip unnecessary metadata and taxonomy caches.
-* Improved: Blueprint artwork and the new Genesis slogan in administration, documentation and plugin update information.
 
 ### 1.4.0 · 2013-05-08
 
@@ -125,6 +132,6 @@ Updates use stable GitHub releases from this repository. The plugin is not distr
 
 ## Copyright / GPL
 
-Copyright 2012–2026 David Decker – DECKERWEB. GPL v2 or later. Shared Library 1.0.0 and Updater 2.1.0: David Decker – DECKERWEB, GPL-2.0-or-later. The local document footer/renderer follows the shared deckerweb implementation used by Genesis Widgetized Not Found & 404 2.0.0. No theme implementation code is bundled. Artwork: David Decker – DECKERWEB, GPL-2.0-or-later. Manrope: Copyright 2018 The Manrope Project Authors, SIL OFL 1.1; see assets/licenses/Manrope-OFL.txt. SVG icon uses native shapes and an embedded OFL font, without raster images or external resources.
+Copyright 2012–2026 David Decker – DECKERWEB. GPL v2 or later. Shared Library 1.1.0 and Updater 2.2.0: David Decker – DECKERWEB, GPL-2.0-or-later. The local document footer/renderer follows the shared deckerweb implementation used by Genesis Widgetized Not Found & 404 2.0.0. No theme implementation code is bundled. Artwork: David Decker – DECKERWEB, GPL-2.0-or-later. Manrope: Copyright 2018 The Manrope Project Authors, SIL OFL 1.1; see assets/licenses/Manrope-OFL.txt. SVG icon uses native shapes and an embedded OFL font, without raster images or external resources.
 
 Support: [Ko-fi](https://ko-fi.com/deckerweb) · [Buy Me a Coffee](https://buymeacoffee.com/daveshine) · [PayPal](https://paypal.me/deckerweb)

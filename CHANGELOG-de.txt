@@ -1,14 +1,20 @@
 == Changelog ==
 
+= 2.0.1 =
+* Verbessert: deckerweb Library 1.1.0 und Updater 2.2.0 mit robusterer gemeinsamer Updateversorgung.
+* Verbessert: Sicherere lokale Dokumentationsdialoge.
+* Behoben: Lokale Dokumentation berücksichtigt die formelle deutsche Admin-Sprache.
+* Sonstiges: Benötigt PHP 8.1; WordPress 6.4 bleibt unterstützt.
+
 = 2.0.0 =
 * Neu: Website-Einstellungen mit Einrichtungsstatus, Vorschau und Shortcode-Kopierfunktion.
 * Neu: Responsive Spaltenverhältnisse sowie einstellbare Landingpage- und Disclaimer-Anzeige.
 * Verbessert: Sichere Pause ohne Genesis je Website, erhaltene Widget-IDs und Deutsch mit Sie-Anrede.
+* Verbessert: Die Abfrage des letzten Änderungsdatums lädt keine unbenötigten Metadaten oder Taxonomie-Zuordnungen.
+* Verbessert: Freigegebene Blueprint-Grafiken und neuer Genesis-Slogan im Admin, in der Dokumentation und in Plugin-Updateinformationen.
 * Behoben: Position der Widget-Shortcode-Ausgabe, Warnung ohne Bereichsangabe, Metro-Landingpage-Ausnahme und Disclaimer-Theme-Erkennung.
 * Behoben: Rekursive Widget-Bereich-Shortcodes enden sicher; Wrapper-Tags werden geprüft.
 * Sonstiges: Benötigt WordPress 6.4 und PHP 8.0. Enthält Library 1.0.0 und Updater 2.1.0.
-* Verbessert: Die Abfrage des letzten Änderungsdatums lädt keine unbenötigten Metadaten oder Taxonomie-Zuordnungen.
-* Verbessert: Freigegebene Blueprint-Grafiken und neuer Genesis-Slogan im Admin, in der Dokumentation und in Plugin-Updateinformationen.
 
 = 1.4.0 · 2013-05-08 =
 * Neu: Metro-Child-Theme-Anpassung und Shortcodes für Widget-Bereiche und letztes Änderungsdatum.

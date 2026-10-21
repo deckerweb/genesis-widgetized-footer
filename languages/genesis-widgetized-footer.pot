@@ -1,5 +1,5 @@
 msgid ""
-msgstr "Project-Id-Version: Genesis Widgetized Footer 2.0.0\nLanguage: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\nPO-Revision-Date: 2026-10-19 12:00+0200\nLast-Translator: David Decker\nLanguage-Team: German\n"
+msgstr "Project-Id-Version: Genesis Widgetized Footer 2.0.1\nLanguage: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\nPO-Revision-Date: 2026-10-21 12:00+0200\nLast-Translator: David Decker\nLanguage-Team: German\n"
 
 msgid "%s is installed but inactive. Activate it first."
 msgstr ""
@@ -581,6 +581,9 @@ msgid "Private mode must be boolean."
 msgstr ""
 
 msgid "Product website"
+msgstr ""
+
+msgid "Public catalog callbacks require both providers and cannot be used in private mode."
 msgstr ""
 
 msgid "Recently updated"
