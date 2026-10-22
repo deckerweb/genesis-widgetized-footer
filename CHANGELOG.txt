@@ -1,5 +1,8 @@
 == Changelog ==
 
+= 2.0.2 =
+* Fixed: The bundled Updater 2.2.1 remains in use when another plugin has already loaded an older updater version.
+
 = 2.0.1 =
 * Improved: deckerweb Library 1.1.0 and Updater 2.2.0 with more reliable shared update handling.
 * Improved: Safer local documentation dialogs.

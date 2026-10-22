@@ -4,6 +4,9 @@
 
 ## Changelog
 
+## 2.0.2
+* Behoben: Der eingebundene Updater 2.2.1 bleibt auch dann zuständig, wenn ein anderes Plugin zuvor eine ältere Updater-Version geladen hat.
+
 ## 2.0.1
 * Verbessert: deckerweb Library 1.1.0 und Updater 2.2.0 mit robusterer gemeinsamer Updateversorgung.
 * Verbessert: Sicherere lokale Dokumentationsdialoge.

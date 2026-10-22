@@ -4,7 +4,7 @@ Tags: genesis, footer, widgets, shortcodes
 Requires at least: 6.4
 Tested up to: 7.1.3
 Requires PHP: 8.1
-Stable tag: 2.0.1
+Stable tag: 2.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,14 +16,14 @@ Your Genesis footer. Your widgets.
 
 Customize the Genesis copyright and credits footer with two widget areas and an optional disclaimer. Existing widgets and shortcode names are preserved.
 
-Version: 2.0.1 | WordPress >= 6.4 | PHP >= 8.1 | Genesis Framework
+Version: 2.0.2 | WordPress >= 6.4 | PHP >= 8.1 | Genesis Framework
 
 == At a glance ==
 * Setup status and widget counts with direct edit links.
 * One full-width area, or two responsive columns in 1:2, 1:1 or 2:1 proportions.
 * Landing-page visibility and an optional disclaimer inside or after the theme footer.
 * Shortcode copying, frontend testing and Customizer preview.
-* Local documentation, informal/formal German, deckerweb Library 1.1.0 and Updater 2.2.0.
+* Local documentation, informal/formal German, deckerweb Library 1.1.0 and Updater 2.2.1.
 
 == Installation ==
 Upload the plugin ZIP under Plugins > Add New > Upload Plugin. Activate it, then open Genesis > Widgetized Footer. Add content under Appearance > Widgets. Without Genesis, settings are under Settings > Widgetized Footer and theme features pause safely.
@@ -53,6 +53,9 @@ The updater checks GitHub for plugin releases during WordPress update checks. Th
 Complete FAQ by topic: FAQ.txt
 
 == Changelog ==
+
+= 2.0.2 =
+* Fixed: The bundled Updater 2.2.1 remains in use when another plugin has already loaded an older updater version.
 
 = 2.0.1 =
 * Improved: deckerweb Library 1.1.0 and Updater 2.2.0 with more reliable shared update handling.
@@ -100,4 +103,4 @@ Use GitHub Issues for questions and ordinary bugs. Report vulnerabilities privat
 Updates use stable GitHub releases from this repository. The plugin is not distributed through WordPress.org. Removing the final Library host clears owned temporary data; shared settings remain by default. Widget content and website settings are preserved.
 
 == Copyright / GPL ==
-Copyright 2012–2026 David Decker – DECKERWEB. GPL v2 or later. Shared Library 1.1.0 and Updater 2.2.0: David Decker – DECKERWEB, GPL-2.0-or-later. The local document footer/renderer follows the shared deckerweb implementation used by Genesis Widgetized Not Found & 404 2.0.0. No theme implementation code is bundled. Artwork: David Decker – DECKERWEB, GPL-2.0-or-later. Manrope: Copyright 2018 The Manrope Project Authors, SIL OFL 1.1; see assets/licenses/Manrope-OFL.txt. SVG icon uses native shapes and an embedded OFL font, without raster images or external resources.
+Copyright 2012–2026 David Decker – DECKERWEB. GPL v2 or later. Shared Library 1.1.0 and Updater 2.2.1: David Decker – DECKERWEB, GPL-2.0-or-later. The local document footer/renderer follows the shared deckerweb implementation used by Genesis Widgetized Not Found & 404 2.0.0. No theme implementation code is bundled. Artwork: David Decker – DECKERWEB, GPL-2.0-or-later. Manrope: Copyright 2018 The Manrope Project Authors, SIL OFL 1.1; see assets/licenses/Manrope-OFL.txt. SVG icon uses native shapes and an embedded OFL font, without raster images or external resources.

@@ -7,7 +7,7 @@
       "One full-width area, or two responsive columns in 1:2, 1:1 or 2:1 proportions.",
       "Landing-page visibility and an optional disclaimer inside or after the theme footer.",
       "Shortcode copying, frontend testing and Customizer preview.",
-      "Local documentation, informal/formal German, deckerweb Library 1.1.0 and Updater 2.2.0."
+      "Local documentation, informal/formal German, deckerweb Library 1.1.0 and Updater 2.2.1."
     ],
     "faq": [
       [
@@ -64,6 +64,12 @@
       ]
     ],
     "changes": [
+      [
+        "2.0.2",
+        [
+          "Fixed: The bundled Updater 2.2.1 remains in use when another plugin has already loaded an older updater version."
+        ]
+      ],
       [
         "2.0.1",
         [
@@ -123,7 +129,7 @@
       ]
     ],
     "support": "Use GitHub Issues for questions and ordinary bugs. Report vulnerabilities privately at https://github.com/deckerweb/genesis-widgetized-footer/security/advisories/new. Include plugin/Library versions, WordPress/PHP versions, reproduction steps and impact; never include credentials or post security details publicly.",
-    "license": "Copyright 2012–2026 David Decker – DECKERWEB. GPL v2 or later. Shared Library 1.1.0 and Updater 2.2.0: David Decker – DECKERWEB, GPL-2.0-or-later. The local document footer/renderer follows the shared deckerweb implementation used by Genesis Widgetized Not Found & 404 2.0.0. No theme implementation code is bundled. Artwork: David Decker – DECKERWEB, GPL-2.0-or-later. Manrope: Copyright 2018 The Manrope Project Authors, SIL OFL 1.1; see assets/licenses/Manrope-OFL.txt. SVG icon uses native shapes and an embedded OFL font, without raster images or external resources.",
+    "license": "Copyright 2012–2026 David Decker – DECKERWEB. GPL v2 or later. Shared Library 1.1.0 and Updater 2.2.1: David Decker – DECKERWEB, GPL-2.0-or-later. The local document footer/renderer follows the shared deckerweb implementation used by Genesis Widgetized Not Found & 404 2.0.0. No theme implementation code is bundled. Artwork: David Decker – DECKERWEB, GPL-2.0-or-later. Manrope: Copyright 2018 The Manrope Project Authors, SIL OFL 1.1; see assets/licenses/Manrope-OFL.txt. SVG icon uses native shapes and an embedded OFL font, without raster images or external resources.",
     "slogan": "Your Genesis footer. Your widgets."
   },
   "de": {
@@ -134,7 +140,7 @@
       "Ein Bereich in voller Breite oder zwei responsive Spalten im Verhältnis 1:2, 1:1 oder 2:1.",
       "Anzeige auf Landingpages und optionaler Disclaimer innerhalb oder nach dem Theme-Footer.",
       "Shortcodes kopieren, Frontend testen und Customizer-Vorschau öffnen.",
-      "Lokale Dokumentation, Deutsch mit Du/Sie, deckerweb Library 1.1.0 und Updater 2.2.0."
+      "Lokale Dokumentation, Deutsch mit Du/Sie, deckerweb Library 1.1.0 und Updater 2.2.1."
     ],
     "faq": [
       [
@@ -191,6 +197,12 @@
       ]
     ],
     "changes": [
+      [
+        "2.0.2",
+        [
+          "Behoben: Der eingebundene Updater 2.2.1 bleibt auch dann zuständig, wenn ein anderes Plugin zuvor eine ältere Updater-Version geladen hat."
+        ]
+      ],
       [
         "2.0.1",
         [
@@ -250,7 +262,7 @@
       ]
     ],
     "support": "Fragen und normale Fehler bitte über GitHub Issues melden. Sicherheitsprobleme vertraulich über https://github.com/deckerweb/genesis-widgetized-footer/security/advisories/new melden. Bitte Plugin-/Library-Version, WordPress-/PHP-Version, Reproduktionsschritte und Auswirkungen angeben; keine Zugangsdaten teilen. Sicherheitsdetails nicht öffentlich posten.",
-    "license": "Copyright 2012–2026 David Decker – DECKERWEB. GPL v2 oder höher. Gemeinsame Library 1.1.0 und Updater 2.2.0: David Decker – DECKERWEB, GPL-2.0-or-later. Der lokale Dokumentations-Footer samt Renderer folgt der gemeinsamen deckerweb-Implementierung aus Genesis Widgetized Not Found & 404 2.0.0. Theme-Implementierungscode ist nicht enthalten. Grafikgestaltung: David Decker – DECKERWEB, GPL-2.0-or-later. Manrope: Copyright 2018 The Manrope Project Authors, SIL OFL 1.1; siehe assets/licenses/Manrope-OFL.txt. SVG-Icon mit nativen Formen und eingebetteter OFL-Schrift, ohne Rasterbilder oder externe Ressourcen.",
+    "license": "Copyright 2012–2026 David Decker – DECKERWEB. GPL v2 oder höher. Gemeinsame Library 1.1.0 und Updater 2.2.1: David Decker – DECKERWEB, GPL-2.0-or-later. Der lokale Dokumentations-Footer samt Renderer folgt der gemeinsamen deckerweb-Implementierung aus Genesis Widgetized Not Found & 404 2.0.0. Theme-Implementierungscode ist nicht enthalten. Grafikgestaltung: David Decker – DECKERWEB, GPL-2.0-or-later. Manrope: Copyright 2018 The Manrope Project Authors, SIL OFL 1.1; siehe assets/licenses/Manrope-OFL.txt. SVG-Icon mit nativen Formen und eingebetteter OFL-Schrift, ohne Rasterbilder oder externe Ressourcen.",
     "slogan": "Dein Genesis Footer. Deine Widgets."
   }
 }

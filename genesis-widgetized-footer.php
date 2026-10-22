@@ -3,7 +3,7 @@
  * Plugin Name: Genesis Widgetized Footer
  * Plugin URI: https://github.com/deckerweb/genesis-widgetized-footer
  * Description: Customize the Genesis footer and optional disclaimer with widgets, responsive layouts and shortcodes.
- * Version: 2.0.1
+ * Version: 2.0.2
  * Requires at least: 6.4
  * Requires PHP: 8.1
  * Author: David Decker – DECKERWEB
@@ -19,7 +19,7 @@
  * SPDX-License-Identifier: GPL-2.0-or-later
  */
 defined( 'ABSPATH' ) || exit;
-define( 'GWFOOT_VERSION', '2.0.1' );
+define( 'GWFOOT_VERSION', '2.0.2' );
 define( 'GWFOOT_PLUGIN_FILE', __FILE__ );
 define( 'GWFOOT_PLUGIN_DIR', __DIR__ );
 define( 'GWFOOT_PLUGIN_BASEDIR', dirname( plugin_basename( __FILE__ ) ) );
